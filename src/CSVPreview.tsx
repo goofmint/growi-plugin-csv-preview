@@ -1,6 +1,5 @@
 import { parse } from '@vanillaes/csv';
 import Async from 'react-async';
-import './Hello.css';
 
 const loadCSV = async({ filePath }: any, { signal }: any) => {
   const res = await fetch(filePath, { signal });
