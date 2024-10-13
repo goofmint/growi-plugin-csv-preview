@@ -1,0 +1,5 @@
+.sticky-header thead th {
+  position: sticky;
+  top: 44px;
+  z-index: 1;
+}
